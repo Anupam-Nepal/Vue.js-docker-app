@@ -50,7 +50,7 @@ cd Vue.js-docker-app
 docker build -t vue-app .
 docker run -p 8080:8080 vue-app
 ```
-
+---
 ### Stopping the Application
 ```bash
 docker ps
