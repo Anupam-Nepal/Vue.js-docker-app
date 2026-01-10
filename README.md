@@ -9,20 +9,22 @@ This repository contains a Vue.js frontend application deployed inside a Docker 
 ## 🛠 Prerequisites
 
 ### 1. Install Docker
-
+#### For Ubuntu / Debian Based Os
 ```bash
 sudo apt update
 sudo apt install -y docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
+#### For Windows / Macs / Other Linux Distros
+visit: https://www.docker.com/products/docker-desktop/
 ### 2. Verify Installation
 
 ```bash
 docker --version
 ```
 ---
-### Quick Setup
+## Quick Setup
 #### Run these commands to install and run these applications
 ```bash
 git clone https://github.com/Anupam-Nepal/Vue.js-docker-app.git
@@ -31,7 +33,7 @@ docker build -t vue-app .
 docker run -p 8080:80 vue-app
 ```
 ---
-### Brief Explanation
+## Brief Explanation
 #### 1. Clone the repository
 ```bash
 git clone https://github.com/Anupam-Nepal/Vue.js-docker-app.git
@@ -56,18 +58,19 @@ Runs container of the Docker Image and also maps the port 80 of container to por
 #### http://localhost:8080
 #### Used for accessing the application.
 ---
-### Stopping the Application
+## Stopping the Application
 ```bash
 docker ps
 docker stop <container_id>
 ```
 ---
-### Things I Learned
+## Things I Learned
 1. Practical implementation of docker image and container.
 2. Setting up Vue.js Environment.
 3. Building custom docker image and running in it a desired port.
 4. Revision of basic docker commands for running, listing and stopping containers.
 ---
-### Difficulties I Encountered
+## Difficulties I Encountered
 1. Docker build failures due to incorrect Dockerfile paths.
 2. Port Conflict (Already running containers exposed to same port).
+3. Finding the correct file paths in Linux and Vue.js file structure.
