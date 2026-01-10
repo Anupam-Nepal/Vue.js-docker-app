@@ -30,6 +30,7 @@ cd Vue.js-docker-app
 docker build -t vue-app .
 docker run -p 8080:80 vue-app
 ```
+---
 ### Brief Explanation
 #### 1. Clone the repository
 ```bash
