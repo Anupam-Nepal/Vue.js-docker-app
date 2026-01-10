@@ -1,5 +1,4 @@
-# Vue.js Application with Docker
-
+# Laravel Application with Nginx & MySQL (Docker Compose)
 
 GitHub Repository:
 https://github.com/Anupam-Nepal/Vue.js-docker-app
@@ -38,7 +37,7 @@ docker build -t vue-app .
 ```
 #### 4. Run docker container
 ```bash
-docker run -p 8080:8080 vue-app
+docker run -p 8080:80 vue-app
 ```
 #### 5. Access the application in browser
 #### http://localhost:8080
@@ -48,9 +47,9 @@ docker run -p 8080:8080 vue-app
 git clone https://github.com/Anupam-Nepal/Vue.js-docker-app.git
 cd Vue.js-docker-app
 docker build -t vue-app .
-docker run -p 8080:8080 vue-app
+docker run -p 8080:80 vue-app
 ```
----
+
 ### Stopping the Application
 ```bash
 docker ps
