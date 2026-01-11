@@ -27,7 +27,7 @@ visit: https://www.docker.com/products/docker-desktop/
 ```bash
 docker --version
 ```
-### Install Git
+### 3. Install Git
 #### For Ubuntu
 ```bash
  apt-get install git
