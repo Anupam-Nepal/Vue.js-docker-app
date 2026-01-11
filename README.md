@@ -18,11 +18,22 @@ sudo systemctl enable docker
 ```
 #### For Windows / Macs / Other Linux Distros
 visit: https://www.docker.com/products/docker-desktop/
+
+##### To Use Ubuntu-Based Commands in Docker Desktop
+1. Enable WSL2 backend in Docker Desktop.
+2. Enable WSL Integration
 ### 2. Verify Installation
 
 ```bash
 docker --version
 ```
+### Install Git
+#### For Ubuntu
+```bash
+ apt-get install git
+```
+#### For Windows
+Visit: https://git-scm.com/install/windows
 ---
 ## Quick Setup
 #### Run these commands to install and run these applications
