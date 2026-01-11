@@ -16,7 +16,7 @@ sudo apt install -y docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
-#### For Windows / Macs / Other Linux Distros
+### For Windows / Macs / Other Linux Distros
 visit: https://www.docker.com/products/docker-desktop/
 
 ##### To Use Ubuntu-Based Commands in Docker Desktop
