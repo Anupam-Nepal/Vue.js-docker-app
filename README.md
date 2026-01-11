@@ -33,7 +33,7 @@ docker --version
  apt-get install git
 ```
 #### For Windows
-Visit: https://git-scm.com/install/windows
+##### Visit: https://git-scm.com/install/windows
 ---
 ## Quick Setup
 #### Run these commands to install and run these applications
